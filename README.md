@@ -1,2 +1,1 @@
-# SPOJ 
-# solved problems in C++ 
+# SPOJ's problems solved in C++
