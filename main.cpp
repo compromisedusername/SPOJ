@@ -1,11 +1,8 @@
 #include <iostream>
-inline void fun(double r, double d){
-        d/=2;
-        std::cout << r*r*3.141592654 - d*d*3.141592654;
-}
-
+#include "PolePewnegoKola.h"
 int main() {
+    std::cout << "Pole Pewnego Kola";
     double promien, odleglosc;
     std::cin >> promien >> odleglosc;
-    fun(promien, odleglosc);
+    PolePewnegoKola::polePewnegoKola(promien, odleglosc);
 }
